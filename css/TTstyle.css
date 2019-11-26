@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Removes basic styles, helpful for later. */
+}
+
+body{
+    background-image: url(../img/TT_bg2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: Arvo;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+   
+    
+}
