@@ -5,16 +5,33 @@
     /*Removes basic styles, helpful for later. */
 }
 
+.menu-container {
+    color: #fff;
+    background-color: #5995DA; /*blue*/
+    padding: 20px 0;
+    display: flex; /*Tells the browser everything in box should render using flexbox instead of default */
+    justify-content: center; /*Same effect as adding margin: 0 auto declaration to .menu element. */
+}
+
+.menu {
+    border: 1px solid #fff; /*For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
 body{
-    background-image: url(../img/TT_bg2.jpg);
-    background-size: cover;
+    /*background-image: url(../img/TT_bg2.jpg);
+    background-size: cover;*/
+    background-color: gray;
 }
 
 h1 {
     font-family: Arvo;
+    font-size: 60px;
     align-content: center;
     text-align: center;
     justify-content: center;
-   
+   color: black;
     
 }
